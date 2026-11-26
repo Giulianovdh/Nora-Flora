@@ -1,0 +1,35 @@
+/* Snelle basis reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* Mooie knop */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
